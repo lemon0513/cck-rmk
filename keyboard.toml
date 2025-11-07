@@ -81,17 +81,21 @@ output_pins = ["P1_15", "P0_09", "P0_10", "P1_11", "P1_04", "P1_06"]
 [[input_device.encoder]]
 pin_a = "P0_29"
 pin_b = "P0_02"
-phase = "default" 
-resolution = 2
-reverse = false
+internal_pullup = false
+phase = "e8h7"
+# phase = "default" 
+# resolution = 2
+# reverse = false
 
 # Encoder 1
 [[input_device.encoder]]
 pin_a = "P0_29"
 pin_b = "P0_02"
-phase = "default" 
-resolution = 2
-reverse = false
+internal_pullup = false
+phase = "e8h7"
+# phase = "default" 
+# resolution = 2
+# reverse = false
 
 [light]
 # All light pins are high-active by default, uncomment if you want it to be low-active
