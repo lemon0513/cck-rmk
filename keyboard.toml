@@ -100,8 +100,8 @@ phase = "default"
 
 [storage]
 # Storage feature is enabled by default
-# enabled = false
-# clear_storage = true
+enabled = true
+clear_storage = true
 
 [rmk]
 # combo_max_num = 16
