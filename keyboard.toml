@@ -49,8 +49,6 @@ enabled = true
 battery_adc_pin = "P0_28"
 adc_divider_measured = 2000
 adc_divider_total = 2806
-charge_state.pin = "P1_11"
-charge_state.low_active = false
 
 [split]
 connection = "ble"
