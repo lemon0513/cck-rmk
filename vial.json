@@ -1,11 +1,11 @@
 {
-    "name": "HID Keyboard",
-    "vendorId": "0x4C4B",
-    "productId": "0x4643",
+    "name": "WK CCK",
+    "vendorId": "0x1313",
+    "productId": "0x1313",
     "lighting": "none",
     "matrix": {
-        "rows": 4,
-        "cols": 3
+        "rows": 5,
+        "cols": 12
     },
     "customKeycodes": [
     {
