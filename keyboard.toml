@@ -46,11 +46,6 @@ keymap = [
 
 [ble]
 enabled = true
-# battery config for nicenano
-battery_adc_pin = "vddh"
-adc_divider_measured = 2000
-adc_divider_total = 2806
-default_tx_power = 8
 
 [split]
 connection = "ble"
