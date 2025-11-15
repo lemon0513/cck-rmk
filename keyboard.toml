@@ -95,7 +95,7 @@ combo_max_num = 32
 tap_dance_max_num = 32
 
 
-[behavior.morse]  
+[behavior]  
 # 禁用 flow tap,避免意外触发多次点击  
 enable_flow_tap = false  
 # 使用较短的 gap_timeout,减少等待时间  
