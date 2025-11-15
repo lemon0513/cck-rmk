@@ -93,14 +93,3 @@ clear_storage = true
 [rmk]
 combo_max_num = 32
 tap_dance_max_num = 32
-
-
-[behavior]  
-# 禁用 flow tap,避免意外触发多次点击  
-enable_flow_tap = false  
-# 使用较短的 gap_timeout,减少等待时间  
-gap_timeout = "40ms"  # 快速结束 morse 模式判定  
-# 配置 tap-hold 的超时时间  
-hold_timeout = "200ms"  
-# 选择决策模式  
-hold_on_other_press = true  # 或使用 normal_mode = true
