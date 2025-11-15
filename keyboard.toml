@@ -93,9 +93,3 @@ clear_storage = true
 [rmk]
 combo_max_num = 32
 tap_dance_max_num = 32
-
-[behavior.morse]
-morses = [
-  # A morse key defined with tap and hold-after-tap actions array
-  { tap_actions = ["F1", "F2", "F3", "F4", "F5"], hold_actions = ["MO(1)", "MO(2)", "MO(3)", "MO(4)", "MO(5)"] }
-]
