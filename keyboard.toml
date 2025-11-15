@@ -85,10 +85,24 @@ reverse =  false
 # numslock.pin = "PA5"
 # numslock.low_active = true
 
+[behavior.morse]
+enable_flow_tap = true,
+prior_idle_time = "120ms"
+hold_on_other_press = true
+hold_timeout = "250ms"
+gap_timeout = "250ms"
+
+[behavior.morse]
+enable_flow_tap = true,
+prior_idle_time = "120ms"
+hold_on_other_press = true
+hold_timeout = "250ms"
+gap_timeout = "250ms"
+
 [storage]
 # Storage feature is enabled by default
 enabled = true
-clear_storage = true
+# clear_storage = true
 
 [rmk]
 combo_max_num = 32
