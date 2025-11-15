@@ -91,4 +91,6 @@ enabled = true
 clear_storage = true
 
 [rmk]
-# combo_max_num = 16
+combo_max_num = 20
+fork_max_num = 20
+
