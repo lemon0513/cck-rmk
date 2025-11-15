@@ -85,19 +85,12 @@ reverse =  false
 # numslock.pin = "PA5"
 # numslock.low_active = true
 
-[behavior.morse]
-enable_flow_tap = true,
-prior_idle_time = "120ms"
-hold_on_other_press = true
-hold_timeout = "250ms"
-gap_timeout = "250ms"
-
-[behavior.morse]
-enable_flow_tap = true,
-prior_idle_time = "120ms"
-hold_on_other_press = true
-hold_timeout = "250ms"
-gap_timeout = "250ms"
+[behavior.morse]  
+# 为 autoshift 优化的配置  
+enable_flow_tap = false  
+gap_timeout = "50ms"      # 快速结束 morse 判定,避免意外双击  
+hold_timeout = "200ms"    # autoshift 触发时间  
+hold_on_other_press = true  
 
 [storage]
 # Storage feature is enabled by default
