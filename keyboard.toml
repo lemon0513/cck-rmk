@@ -91,6 +91,6 @@ enabled = true
 clear_storage = true
 
 [rmk]
-combo_max_num = 20
-fork_max_num = 20
+combo_max_num = 32
+tap_dance_max_num = 32
 
