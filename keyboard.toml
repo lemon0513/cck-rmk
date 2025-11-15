@@ -75,7 +75,7 @@ internal_pullup = true
 reverse =  false
 
 
-[[split.peripheral]]
+[[split.central.input_device.encoder]]
 rows = 5
 cols = 6
 row_offset = 0
@@ -88,7 +88,7 @@ input_pins = ["P0_11", "P1_00", "P0_24", "P0_22", "P1_13"]
 output_pins = ["P1_15", "P0_09", "P0_10", "P1_11", "P1_04", "P1_06"]
 
 # Encoder 1
-[[input_device.encoder]]
+[[split.peripheral.input_device.encoder]]
 pin_a = "P0_29"
 pin_b = "P0_02"
 phase = "resolution"
