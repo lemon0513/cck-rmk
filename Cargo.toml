@@ -1,2 +1,0 @@
-[dependencies]  
-rmk = { version = "0.8", default-features = true } 
