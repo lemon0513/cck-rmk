@@ -85,7 +85,7 @@ reverse =  false
 # numslock.pin = "PA5"
 # numslock.low_active = true
 
-[behavior.morse]  
+[behavior.tap_hold] 
 # 为 autoshift 优化的配置  
 enable_flow_tap = false  
 gap_timeout = "50ms"      # 快速结束 morse 判定,避免意外双击  
