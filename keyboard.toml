@@ -87,10 +87,10 @@ reverse =  false
 
 [behavior.tap_hold] 
 # 为 autoshift 优化的配置  
-enable_flow_tap = false  
-gap_timeout = "50ms"      # 快速结束 morse 判定,避免意外双击  
-hold_timeout = "200ms"    # autoshift 触发时间  
-hold_on_other_press = true  
+# enable_flow_tap = false  
+# gap_timeout = "50ms"      # 快速结束 morse 判定,避免意外双击  
+# hold_timeout = "200ms"    # autoshift 触发时间  
+# hold_on_other_press = true  
 
 [storage]
 # Storage feature is enabled by default
@@ -100,3 +100,8 @@ enabled = true
 [rmk]
 combo_max_num = 32
 tap_dance_max_num = 32
+vial_enabled = true
+enable_flow_tap = false  
+gap_timeout = "50ms"      # 快速结束 morse 判定,避免意外双击  
+hold_timeout = "200ms"    # autoshift 触发时间  
+hold_on_other_press = true  
