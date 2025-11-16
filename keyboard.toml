@@ -88,9 +88,9 @@ reverse =  false
 [behavior.tap_hold]
 # 为 autoshift 优化的配置  
 enable_hrm = false
-prior_idle_time = "50ms"
+# prior_idle_time = "50ms"
 post_wait_time = "50ms"      # 快速结束 morse 判定,避免意外双击  
-hold_timeout = "200ms"    # autoshift 触发时间  
+# hold_timeout = "200ms"    # autoshift 触发时间  
 permissive_hold = false
 
 [storage]
