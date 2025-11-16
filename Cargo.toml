@@ -4,3 +4,7 @@ rmk = {
     branch = "main",  
     features = ["async_matrix", "nrf52840_ble", "adafruit_bl", "controller"]  
 }
+
+
+[build-dependencies]  
+rmk-config = { git = "https://github.com/HaoboGu/rmk", branch = "main" }
