@@ -6,5 +6,5 @@ rmk = {
 }
 
 
-[build-dependencies]  
+[patch.crates-io]  
 rmk-config = { git = "https://github.com/HaoboGu/rmk", branch = "main" }
