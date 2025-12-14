@@ -23,7 +23,7 @@ keymap = [
 [storage]
 # Storage feature is enabled by default
 enabled = true
-# clear_storage = true
+clear_storage = true
 
 [ble]
 enabled = true
